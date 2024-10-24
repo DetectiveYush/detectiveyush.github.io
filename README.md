@@ -1,10 +1,10 @@
 # Ayush Aggarwal's Resume Website
 
-Welcome to my personal website, hosted on GitHub Pages. Below are some key details about my education, experience, and notable projects.
+Welcome to my personal website. Below are some key details about my education, experience, and notable projects.
 
 ## Education
 - **University of Massachusetts Dartmouth**
-  - *MS in Physics* (Expected Graduation: 2024)
+  - *MS in Physics* (Graduation: 2024)
   - GPA: 3.530
 - **Vellore Institute of Technology (VIT), Vellore**
   - *Bachelors in Technology, Electronics & Communication Engineering* (2020)
