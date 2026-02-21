@@ -3,110 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My professional CV and portfolio">
-    <title>Ayush's Portal</title>
+    <meta name="description" content="Ayush Aggarwal - Physics, software, and systems engineering portfolio">
+    <title>Ayush Aggarwal | Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <div class="container">
-            <h1>Ayush Aggarwal</h1>
-            <p>Physicsist | Software Developer | Electronics and Communication Engineer</p>
-            <div class="social-links">
-                <a href="https://github.com/DetectiveYush" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/ayush-aggarwal-7a16a3182/" target="_blank">LinkedIn</a>
-                <a href="mailto:your.ayushagg97@gmail.com">ayushagg97@gmail.com</a>
-            </div>
+            <a class="logo" href="index.html">Ayush Aggarwal</a>
+            <nav class="nav">
+                <a class="nav-link is-active" href="index.html">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="plans.html">Plans</a>
+            </nav>
         </div>
     </header>
 
-    <section class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I'm a physics student passionate about theoretical physics and quantum computing. With experience in physics, software and electronics engineering.</p>
-        </div>
-    </section>
-
-    <section class="skills">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Programming: Python, C++, Java</li>
-                <li>Tools: QATK, MATLAB, Qiskit</li>
-                <li>Other Skills: GIMP/ Photoshop, Stable Diffusion, cpp-llama, Blendr</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Software Developer Intern</h3>
-                <p><strong>Tech Mahindra</strong> | November 2019 - December 2019</p>
-                <ul>
-                    <li>Developed an image processing workflow using IBM Power Vision AI for gear classification.</li>
-                    <li>Tested neural network models to optimize image result transfer and input handling.</li>
-                    <li>Created the UI and workflow for video capture, image processing, and AI verification.</li>
-                    <li>Integrated defect reporting system to relay results to offsite manufacturer systems.</li>
-                    
-                </ul>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Physicist • Software Developer • ECE</p>
+                    <h1>Building elegant simulations, high-signal interfaces, and curious machines.</h1>
+                    <p class="lede">
+                        I explore theoretical physics and quantum computing while shipping practical software and
+                        electronics systems. This site is a living lab for experiments, writeups, and portfolio work.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="projects.html">View Projects</a>
+                        <a class="btn btn-ghost" href="plans.html">See Roadmap</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/DetectiveYush" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/ayush-aggarwal-7a16a3182/" target="_blank" rel="noreferrer">LinkedIn</a>
+                        <a href="mailto:your.ayushagg97@gmail.com">ayushagg97@gmail.com</a>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="orb"></div>
+                    <div class="hero-card-inner">
+                        <h2>Focus Areas</h2>
+                        <ul>
+                            <li>Quantum field simulations + computational physics</li>
+                            <li>AI tooling for research workflows</li>
+                            <li>Interactive visuals and data-driven stories</li>
+                            <li>Signal processing and embedded systems</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="job">
-                <h3>Research Assistant</h3>
-                <p><strong>University of Massachusetts Dartmouth</strong> | December 2022 - January 2023</p>
-                <ul>
-                    <li>Assisted in the development of models for quantum field theory simulations.</li>
-                    <li>Contributed to the analysis of experimental data using Python and MATLAB.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>STEM Lab Tutor</h3>
-                <p><strong>University of Massachusetts Dartmouth</strong> | September 2023 - May 2024</p>
-                <ul>
-                    <li>Tutored undergraduate students in core physics topics including mechanics, kinematics, thermodynamics, electromagnetism, and fluid dynamics.</li>
-                    <li>Provided in-depth instruction on mathematical methods in physics, including calculus, differential equations, and linear algebra.</li>
-                    <li>Assisted students in mastering fundamental and advanced concepts in classical mechanics and electromagnetism through problem-solving and analytical methods.</li>
-                    <li>Utilized mathematical modeling and computational tools to clarify complex theoretical principles and aid students' comprehension of physical systems.</li>
-                    <li>Guided students in applying theoretical knowledge to practical problems, emphasizing mathematical rigor and conceptual understanding in physics and engineering contexts.</li>
+        </section>
 
-                </ul>
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Quick Highlights</h2>
+                    <p>Snapshot of what I have been working on recently.</p>
+                </div>
+                <div class="grid cards">
+                    <article class="card reveal">
+                        <h3>Teleparallel Gravity Notes</h3>
+                        <p>
+                            A study of the teleparallel equivalent to GR with transformations that mirror
+                            Levi-Civita and Weitzenbock connections.
+                        </p>
+                        <span class="meta">Theory • 2024</span>
+                    </article>
+                    <article class="card reveal">
+                        <h3>Graphene MTJ Modeling</h3>
+                        <p>Modeled a magnetic tunneling junction in QATK with magic-angle graphene layers.</p>
+                        <span class="meta">Spintronics • 2020</span>
+                    </article>
+                    <article class="card reveal">
+                        <h3>Physics Tutoring Systems</h3>
+                        <p>Built visual aids and computational tools for core physics coursework.</p>
+                        <span class="meta">Teaching • 2023-2024</span>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="education">
+        <section class="section split">
+            <div class="container split-grid">
+                <div>
+                    <h2>Now</h2>
+                    <p>
+                        I am building a curated portfolio of experimental projects that combine physical simulation,
+                        machine learning, and interface design. Each project will have a narrative, a technical deep
+                        dive, and a demo or visualization.
+                    </p>
+                    <a class="text-link" href="plans.html">Explore the project roadmap</a>
+                </div>
+                <div class="stat-card">
+                    <div>
+                        <p class="stat">3</p>
+                        <p class="stat-label">Active Research Threads</p>
+                    </div>
+                    <div>
+                        <p class="stat">5</p>
+                        <p class="stat-label">Planned Builds</p>
+                    </div>
+                    <div>
+                        <p class="stat">∞</p>
+                        <p class="stat-label">Curiosity</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
         <div class="container">
-            <h2>Education</h2>
-            <div class="MS Physics">
-                <h3>Master of Science - Physics</h3>
-                <p><strong>University of Massachusetts Dartmouth </strong> | Graduation: 2024</p>
-                <ul>
-                    <li>Courses: Quantum Mechanics I, Quantum Mechanics II, Electromagnetic Theory II, Theoretical Mechanics & Relativity, High Energy Astrophysics, Adv Math Physics II, Quantum Field Theory, Dark matter</li>
-                    <li>Research: 
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Teleparallel Equivalent to GR</h3>
-                <p>Reviewed an equivalent formalism for Teleparallel gravity to General Relativity and attempted to create a generalized transform by modelling a force feild as we model the EMF tensor but which only changes the coordinates. This resulted in a transformation which mirrors both the levi civita connection from GR and weitzenboc connection from Teleparallelism.</p>
-            </div>
-            <div class="project">
-                <h3>Modelled a Novel Magnetic Tunelling Junction</h3>
-                <p>Created an MTJ on QATK using graphene sandwhiched at magic angles between Heusler Alloy CFGG and studied its spin conduction properties.</p>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Ayush Aggarwal. All rights reserved.</p>
+            <p>&copy; 2026 Ayush Aggarwal. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
